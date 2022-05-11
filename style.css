@@ -1,0 +1,60 @@
+head{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.photo{
+    margin: 0;
+    border-radius: 50%;
+    border: 2px solid grey;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px;
+    max-width: 900px;
+}
+.post_title{
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.data{
+    font-size: 10px;
+    font-style: italic;
+    color: black;
+    margin: 0;
+    margin-bottom: 7px;
+}
+.post{
+    padding: 10px;
+    margin: 0;  
+    margin-bottom: 5px;
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: justify;
+    font-weight: normal;
+}
+.subtitle{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.dados_pessoais{
+    font-size: 12px;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: black;
+    padding-left: 25px;
+}
+.dados_pessoais li a{
+    text-decoration: none;
+}
+.lista{
+    margin: 0;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+.lista li h3{
+    font-weight: normal;
+}
