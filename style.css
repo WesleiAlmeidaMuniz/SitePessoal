@@ -1,60 +1,76 @@
-head{
+@charset "UTF-8";
+*{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .photo{
-    margin: 0;
-    border-radius: 50%;
-    border: 2px solid grey;
-    padding: 0;
+    border-radius: 20%;
+    border: 2px solid rgb(255, 255, 255);
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 100px;
-    max-width: 900px;
+    background-color: #242F40;
+    margin: auto;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+div{
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 2%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+}
+h1{
+    font-size: 35px;
+}
+h2{
+    margin-bottom: 2px;
+    font-size: 25px;
+    margin: auto;
+}
+li {
+    list-style-type: none;
+}
+
+footer{
+    text-align: center;
+}
+
+footer > p {
+    margin: 8px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
 }
 .post_title{
-    font-size: 15px;
-    margin: 0;
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 .data{
-    font-size: 10px;
+    font-size: 13px;
     font-style: italic;
+    font-weight: bold;
     color: black;
-    margin: 0;
-    margin-bottom: 7px;
+    margin-top: 2px;
+    margin-bottom: 20px;
 }
-.post{
-    padding: 10px;
-    margin: 0;  
-    margin-bottom: 5px;
+.dataatv{
+    font-size: 13px;
+    font-style: italic;
+    font-weight: normal;
+    color: black;
+    margin-top: 2px;
+    margin-bottom: 20px;
 }
 .post_content{
-    margin: 0;
-    margin-bottom: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-indent: 30px;
     text-align: justify;
-    font-weight: normal;
-}
-.subtitle{
-    margin: 0;
-    margin-bottom: 10px;
-    font-size: 25px;
-}
-.dados_pessoais{
-    font-size: 12px;
-    margin-bottom: 0;
-    text-decoration: none;
-    color: black;
-    padding-left: 25px;
-}
-.dados_pessoais li a{
-    text-decoration: none;
-}
-.lista{
-    margin: 0;
-    margin-bottom: 10px;
-    padding-left: 15px;
-}
-.lista li h3{
-    font-weight: normal;
+    max-width: 900px;
+    padding: auto;
 }
