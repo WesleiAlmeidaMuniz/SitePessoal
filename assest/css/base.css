@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-base{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3.5vw;
+}
+
+.texto-base{
+    font-size: 1.5vw;
+    text-align: justify;
+    text-indent: 3vw;
+    margin-bottom: 1vw;
+}
+
+.base-div-direita{
+    width: 50vw;
+    margin-left: 5vh;
+}
+
+.base-div-esquerda{
+    width: 50vw;
+    margin-right: 5vh;
+}
+
+.seccao-padrao{
+    display: flex;
+    height: 90vh;
+    margin-top: 10vh;
+}
+
+a{
+    text-decoration: none;
+}

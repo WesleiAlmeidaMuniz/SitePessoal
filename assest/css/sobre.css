@@ -1,0 +1,21 @@
+.sobre_min{
+    height: 80vh;
+    margin-top: 10vh;
+    display: flex;
+}
+
+.text-sobre{
+    margin-top: 20vh;
+}
+
+.title-sobre{   
+    margin-bottom: 10vh;
+}
+
+.img-prof{
+    text-align: center;
+}
+.img-profile{
+    width: 65%;
+    border-radius: 10px;
+}

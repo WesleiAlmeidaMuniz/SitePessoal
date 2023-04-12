@@ -1,0 +1,57 @@
+.comp-list{
+    text-align: center;
+}
+
+#competencias{
+    padding-top: 10vh;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 0.1rem;
+}
+
+.item__lista{
+    display: flex;
+    flex-direction: column;
+}
+
+.item__nome{
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.item__imagem{
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.item__html{
+    background-image: url(../img/html-5-svgrepo-com.svg);
+}
+
+.item__css{
+    background-image: url(../img/css-3-svgrepo-com.svg);
+}
+
+.item__javascript{
+    background-image: url(../img/javascript-svgrepo-com.svg);
+}
+
+.item__react{
+    background-image: url(../img/react-javascript-js-framework-facebook-svgrepo-com.svg);
+}
+
+.item__git{
+    background-image: url(../img/git-svgrepo-com.svg);
+}
+
+.item__github{
+    background-image: url(../img/github-color-svgrepo-com.svg);
+}
