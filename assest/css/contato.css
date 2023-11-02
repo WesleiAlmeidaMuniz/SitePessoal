@@ -1,12 +1,10 @@
 .formulario{
-    width: 500px;
-    display: flex;
+    width: 35vw;
     flex-direction: column;
  }
 
-.titulo-contato{
-    font-size: 3rem;
-    text-align: center;
+.formulario-input{
+    height: 30vh;
 }
 
 .contato-esquerda{
@@ -14,7 +12,12 @@
     display: flex;
     justify-content: space-evenly;
     width: 50%;
-    margin: 20px auto;
+    margin: 0px auto;
+}
+
+.titulo-contato{
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .contato-esquerda > a{
@@ -58,26 +61,26 @@
 
 .image-contato > img{
     width: 500px;
-    height: 450px;
+    height: 485px;
     border-radius: 5px;
 }
 
 .seccao-contato{
     display: flex;
     height: 90vh;
-    margin-top: 1.5rem;
+    margin-top: .5rem;
     justify-content: center;
 }
  
 .input-padrao{
     display: block;
-    padding: 20px 20px;
+    padding: 20px 10px;
     width: 90%;
-    font-size: 1rem;
+    font-size: 0.80rem;
     border: 1px solid white;
     border-radius: 5px;
 }
- 
+
 .enviar{
     width: 20%;
     padding: 10px 0;
@@ -94,7 +97,11 @@
     position: relative;
     margin-bottom: 0.8rem;
 }
- 
+
+.mensagem{
+    height: 30vh;
+}
+
 .input::placeholder {
     visibility: hidden;
     color: #00000000;
