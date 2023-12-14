@@ -1,3 +1,6 @@
+
+![Weslei](https://github.com/WesleiAlmeidaMuniz/SitePessoal/assets/88255036/6c41a00e-7d29-40b8-bc4b-d7c220a55f32)
+
 # Site Pessoal
 Bem-vindo ao meu site pessoal! Este é um espaço onde compartilho um pouco sobre quem eu sou, meu trabalho, projetos e interesses. O site foi desenvolvido utilizando HTML, CSS e JavaScript para proporcionar uma experiência interativa e envolvente. Sinta-se à vontade para explorar e conhecer mais sobre mim.
 
