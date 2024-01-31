@@ -23,6 +23,11 @@
     padding-top: 1rem;
 }
 
+.lista > a{
+    text-decoration: none;
+    color: white;
+}
+
 .titulo-base {
     text-align: center;
     text-transform: capitalize;
