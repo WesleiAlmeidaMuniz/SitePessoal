@@ -76,3 +76,35 @@
     display: block !important;
 }
 
+.btn-pulse{
+    box-shadow: 1px 1px 6px 0 #2dd5ff;
+    animation: pulse-btn 2s infinite;
+}
+
+
+@-webkit-keyframes pulse-btn {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(122, 180, 247, 0.3);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(74, 234, 245, 0.5);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgb(4, 232, 248);
+    }
+}
+
+@keyframes pulse-btn {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(83, 214, 253, 0.3);
+      box-shadow: 0 0 0 0 rgba(83, 214, 253, 0.3);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(83, 214, 253, 0);
+        box-shadow: 0 0 0 10px rgba(83, 214, 253, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgb(4, 232, 248,0);
+        box-shadow: 0 0 0 0 rgb(4, 232, 248,0);
+    }
+}
