@@ -56,24 +56,24 @@
     margin: 1rem 0;
 }
 
-.item__html {
-    background-image: url(../img/html-5-svgrepo-com.svg);
+.item__typescript {
+    background-image: url(../img/typescript.svg);
 }
 
-.item__css {
-    background-image: url(../img/css-3-svgrepo-com.svg);
+.item__nestjs {
+    background-image: url(../img/NestJS.svg);
 }
 
-.item__javascript {
-    background-image: url(../img/javascript-svgrepo-com.svg);
+.item__typeorm {
+    background-image: url(../img/typeorm.svg);
 }
 
 .item__react {
     background-image: url(../img/react-javascript-js-framework-facebook-svgrepo-com.svg);
 }
 
-.item__git {
-    background-image: url(../img/git-svgrepo-com.svg);
+.item__sql {
+    background-image: url(../img/sql.svg);
 }
 
 .item__github {
